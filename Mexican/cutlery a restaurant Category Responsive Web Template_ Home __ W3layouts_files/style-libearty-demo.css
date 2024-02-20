@@ -2500,7 +2500,7 @@
   padding: 14px 0 10px;
   font-size: 17px;
   font-weight: 600;
-  color: #fff; }
+  color: rgb(183, 9, 9)  }
 
 .w3l-header-4 .navbar-expand-lg .navbar-nav .nav-link {
   text-transform: capitalize;
@@ -2508,12 +2508,12 @@
   padding: 14px 0 10px;
   font-size: 17px;
   font-weight: 600;
-  color: #ccc; }
+  color: rgb(183, 9, 9) }
 
 .w3l-header-4 a.dropdown-item {
   font-weight: 600;
   font-size: 17px;
-  color: #444; }
+  color: rgb(183, 9, 9) }
 
 .w3l-header-4 a.dropdown-item:hover {
   color: #F9C80E; }
@@ -2537,7 +2537,7 @@
   z-index: 1001; }
 
 .w3l-header-4 header.nav-fixed {
-  margin-top:30px;
+  margin-top:0px;
   padding: 0px;
   background-color: #fff;
   height: 80px;
@@ -2759,11 +2759,11 @@
 .w3l-hero-headers-9 .slide:before {
   width: 100%;
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background-image: url('./fiesta.jpg');
   position: absolute;
   top: 0px;
   bottom: 0px;
-  opacity: .6;
+  /* opacity: .6; */
   z-index: -1; }
 
 .w3l-hero-headers-9 header {
@@ -11847,7 +11847,8 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+ Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
 
 * {
   box-sizing: border-box; }
