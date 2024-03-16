@@ -588,11 +588,11 @@
 .w3l-hero-headers-9 .slide:before {
   width: 100%;
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background-image: url("./assets/fiesta.jpg");
   position: absolute;
   top: 0px;
   bottom: 0px;
-  opacity: 0.6;
+  opacity: 1;
   z-index: -1;
 }
 
@@ -1483,6 +1483,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+}
+
+.sodas, .burrito {
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .w3l-content-with-photo-4 .my-bio h3 {
